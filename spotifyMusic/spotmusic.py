@@ -10,8 +10,8 @@ import sys
 import pprint
 import json
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="86e129aab6334e4e9df9",
-                                               client_secret="a97c6e3f89524352bbca659941",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="",
+                                               client_secret="",
                                                redirect_uri="http://localhost:8888/callback",
                                                scope="user-library-read"))
 
